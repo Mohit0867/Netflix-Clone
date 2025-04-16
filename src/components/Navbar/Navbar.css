@@ -1,0 +1,28 @@
+.search {
+  background: #80afb3;
+  color: black;
+  margin-right: 35px;
+}
+.main-nav {
+  background: #3b3b3b;
+  color: rgb(255, 255, 255);
+}
+/* .main-logo {
+  margin-left: 40px;
+  width: 25px;
+  filter: invert(1);
+} */
+.main-logo {
+  margin-inline: 40px;
+  margin-top: 10px;
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+}
+.text-type {
+  font-family: "Mars Model", sans-serif;
+}
