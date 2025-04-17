@@ -53,7 +53,7 @@ const Tv = () => {
   return series ? (
     <div
       className="bg-black text-white d-flex justify-content-between align-items-center w-100"
-      style={{ gap: "80px", padding: "50px 80px", height: "100vh" }}
+      style={{ gap: "80px", padding: "120px 80px 50px 80px", height: "100vh" }}
     >
       <img
         className="single-first"

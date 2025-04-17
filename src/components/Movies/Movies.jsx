@@ -75,7 +75,7 @@ const Movies = () => {
   return (
     <>
       <div
-        style={{ paddingTop: "30px" }}
+        style={{ padding: "120px 30px 30px 30px" }}
         className="row justify-content-center bg-black "
       >
         {movie.map((movie) => (

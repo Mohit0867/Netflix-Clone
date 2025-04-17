@@ -144,7 +144,7 @@ const Home = () => {
       <div className="d-flex ">
         <div
           style={{
-            width: "25%",
+            width: "20%",
             backgroundColor: "#3b3b3b",
            
             display: "flex",
@@ -494,7 +494,7 @@ const Home = () => {
                 >
                   <Link
                     className="d-flex flex-column text-decoration-none align-items-center"
-                    to={`/movie-details/${suggestion.id}`}
+                    to={`/tv-details/${suggestion.id}`}
                   >
                     <img
                       style={{

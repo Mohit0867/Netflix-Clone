@@ -8,7 +8,7 @@ const Navbar = () => {
     navigate(`/search/${search}`);
   };
   return (
-    <div className="d-flex justify-content-between align-items-center w-100 main-nav ">
+    <div className="d-flex justify-content-between align-items-center w-100 main-nav position-fixed">
       <Link className="nav-link text-dark " to="/">
         {/* <img className="main-logo" src="netflix_logo1.png" alt="logo" /> */}
         <p className="main-logo text-type text-light">N</p>
