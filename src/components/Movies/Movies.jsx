@@ -154,10 +154,11 @@ const Movies = () => {
             ))
           ) : (
             <p
-              className="d-flex justify-content-center align-items-center"
+              className="d-flex justify-content-center align-items-center "
               style={{ color: " #80afb3", backgroundColor: "black" }}
             >
               Loading or no data found...
+              <div class="loader "></div>
             </p>
           )}
         </div>
@@ -210,6 +211,8 @@ const Movies = () => {
               style={{ color: " white", backgroundColor: "#3b3b3b" }}
             >
               Loading or no data found...
+
+              <div class="loader "></div>
             </p>
           )}
         </div>
@@ -242,17 +245,20 @@ const Movies = () => {
               <div
                 className=" d-flex flex-column justify-content-center align-items-center"
                 key={index}
-              >  <Link
-              className="d-flex flex-column text-decoration-none align-items-center"
-              to={`/movie-details/${item.id}`}
-            >
-                <img
-                  style={{ width: "170px" }}
-                  src={apiConfig.w500Image(item.poster_path)}
-                  alt="error"
-                />
-                <p className="text-light">{topMovie.title}</p>
-                </Link>    </div>
+              >
+                {" "}
+                <Link
+                  className="d-flex flex-column text-decoration-none align-items-center"
+                  to={`/movie-details/${item.id}`}
+                >
+                  <img
+                    style={{ width: "170px" }}
+                    src={apiConfig.w500Image(item.poster_path)}
+                    alt="error"
+                  />
+                  <p className="text-light">{topMovie.title}</p>
+                </Link>{" "}
+              </div>
             ))
           ) : (
             <p
@@ -260,6 +266,8 @@ const Movies = () => {
               style={{ color: " #80afb3", backgroundColor: "black" }}
             >
               Loading or no data found...
+
+              <div class="loader "></div>
             </p>
           )}
         </div>

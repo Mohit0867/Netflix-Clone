@@ -44,7 +44,7 @@ const Series = () => {
               to={`/tv-details/${series.id}`}
             >
               <img
-                style={{ width: "100px" }}
+                style={{ width: "150px" }}
                 src={apiConfig.w500Image(series.poster_path)}
                 alt="error"
               />
@@ -82,7 +82,7 @@ const Series = () => {
           className="d-flex justify-content-center align-items-center"
           style={{ color: " #80afb3", backgroundColor: "black" }}
         >
-          Loading or no data found...
+          Loading or no data found...   <div class="loader "></div>
         </p>
       )}
     </div>
